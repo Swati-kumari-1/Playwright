@@ -1,0 +1,32 @@
+{
+  "name": "playwright-tutorial-april",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "@types/readline-sync": "^1.4.8",
+    "auto-playwright": "^1.16.0",
+    "concurrently": "^9.2.1",
+    "playwright": "^1.60.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "gptlint": "^1.6.0",
+    "readline-sync": "^1.4.10"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

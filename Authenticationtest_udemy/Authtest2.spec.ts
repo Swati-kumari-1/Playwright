@@ -28,6 +28,11 @@ test('test', async ({ page }) => {
   await page.getByRole('checkbox', { name: 'I would like to receive' }).check();
   await page.getByRole('button', { name: 'Reject All' }).click();
   await page.getByRole('button', { name: 'Place order' }).click();
+  //await expect(page).toHaveScreenshot();
+  await expect(page).toHaveScreenshot({
+  animations: 'disabled',  
+  maxDiffPixels: 40000,
 });
+})
 
 

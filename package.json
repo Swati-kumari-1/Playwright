@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "playwright-tutorial-april",
   "version": "0.1.0",
   "private": true,
@@ -29,4 +30,27 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+=======
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Playwright",
+  "main": "arrays.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swati-kumari-1/Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Swati-kumari-1/Playwright/issues"
+  },
+  "homepage": "https://github.com/Swati-kumari-1/Playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+>>>>>>> 75ea71e (Added flipkart test)
 }
