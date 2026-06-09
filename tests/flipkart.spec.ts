@@ -26,7 +26,7 @@ test.describe('Flipkart Footer Link Verification', () => {
 });
 
 
-
+//import { test, expect } from '@playwright/test';
 //About us locator
 test ('About us locator',async({page})=>{
     await page.getByText('ABOUT')
