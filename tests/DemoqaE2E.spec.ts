@@ -22,3 +22,8 @@ test('checks Home checkbox on demoqa', async ({ page }) => {
   await expect(page.locator('#result')).toContainText('home');
 });
 
+test('Handling Radio Box', async({page})=>{
+ await page.goto("https://demoqa.com/radio-button")    
+ await page.locator('.mb-3').getByText("Do you like the site")
+ 
+})
